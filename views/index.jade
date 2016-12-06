@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1,maximum-scale=1')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/index.css')
+        script(src='/javascripts/CommentCoreLibrary.js')
+        script(src='http://cdn.bootcss.com/socket.io/1.3.2/socket.io.js')
+        script(src='http://cdn.bootcss.com/jquery/2.1.3/jquery.js')
+    body
+        div(style='width:100%; height:100%;position:absolute')
+            #my-player.abp
+                #my-comment-stage.container
+                    //div#ppt(style='height:100%;width:100%;')
+    script(src='/javascripts/index.js')
